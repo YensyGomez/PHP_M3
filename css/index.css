@@ -4,12 +4,26 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Lato';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+    line-height: 1.5;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-column-gap:2px;
     min-height: 100vh;
+    overflow: hidden;
+    cursor:pointer;
+
   }
+
+h1 {
+    color: white;
+}
 
 .box{
   
@@ -38,6 +52,25 @@
 .box:nth-child(5) {
     background:#F24B4B;
 }
+
+.box:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.05;
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-transform: skew(30deg) scaleY(1) translate(0, 0);
+            transform: skew(30deg) scaleY(1) translate(0, 0);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+
 
 
 

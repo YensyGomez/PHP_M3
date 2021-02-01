@@ -12,8 +12,7 @@
   <div class="box"><h1>A</h1></div>
   <div class="box"><h1>CA</h1></div>
   <div class="box"><h1>DE</h1></div>
-  <div class="box"><h1>MY </h1></div>
+  <div class="box"><h1>MY 💪🏻 </h1></div>
 </div>
-    
 </body>
 </html>
