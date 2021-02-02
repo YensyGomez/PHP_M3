@@ -12,9 +12,6 @@ body {
 }
 
 .container {
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap:2px; */
     min-height: 100vh;
     overflow: hidden;
     cursor:pointer;
@@ -26,7 +23,7 @@ h1 {
     font-size: 36px;
     margin: 0 0 16px
 }
-
+/* Clase padre */
 .box{
     width: 20%;
     position: absolute;
@@ -43,7 +40,7 @@ h1 {
           animation-fill-mode: both;
 
 }
-
+/*Clases hijos */
 .box:nth-child(1) {
     background: #244F75;
     left: 0;
@@ -98,7 +95,7 @@ h1 {
     -webkit-animation-delay: 0.5s;
         animation-delay: 0.5s
 }
-
+ /* Transicion de las divisiones de itacademy */
 .box:before {
     content: "";
     position: absolute;
